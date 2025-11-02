@@ -182,23 +182,22 @@ body {
 
 
 /* whats app styles*/
-.floating-whatsapp {
+.whatsapp-float {
   position: fixed;
-  bottom: 20px;     /* distance from bottom */
-  right: 20px;      /* distance from right side */
+  bottom: 80px;
+  right: 80px;
   z-index: 1000;
-  width: 50px;      /* set width */
-  height: auto;     /* maintain aspect ratio */
+  width: 60px;
+  height: 60px;
 }
-
-.whatsapp-img {
-  width: 100%;      /* fill the container width */
+.whatsapp-float .whatsapp-icon {
+  max-width: 100%;
   height: auto;
-  display: block;
 }
-@media screen and (max-width: 480px) {
-  .floating-whatsapp {
-    width: 40px;
+@media (max-width: 767px) {
+  .whatsapp-float {
+    width: 45px;
+    height: 45px;
     bottom: 15px;
     right: 15px;
   }
@@ -206,6 +205,7 @@ body {
 
 
 /* about lo image matte side by side */
+
 
 
 
