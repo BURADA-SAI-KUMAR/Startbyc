@@ -181,7 +181,30 @@ body {
 }
 
 
+/* whats app styles*/
+.whatsapp-float {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+}
+.whatsapp-float .whatsapp-icon {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .whatsapp-float {
+    width: 45px;
+    height: 45px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
 /* about lo image matte side by side */
+
 
 
 
