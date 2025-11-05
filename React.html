@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend with React</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/[email protected]/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background:#f9fafb; color:#333; font-family:'Poppins', sans-serif;">
+
+  <header style="background: linear-gradient(135deg, #ff416c, #ff4b2b); color:white; text-align:center; padding:2em 1em; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+    <h1 style="margin:0; font-size:2rem;">Frontend with React</h1>
+    <p style="font-size:1rem; margin-top:0.5em;">HTML • CSS • Bootstrap • JavaScript • ES6 • React</p>
+  </header>
+
+  <main class="container my-4" style="max-width:900px; padding:0 1em;">
+    <div class="accordion" id="uiCourseAccordion">
+
+      <!-- Session 1 -->
+      <div class="accordion-item" style="margin-bottom:1em; background:white; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+            style="background:none; color:#ff4b2b; font-weight:bold; border:none; border-left:5px solid #ff416c; padding-left:1rem;">
+            Session 1: UI Technologies & HTML Basics
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#uiCourseAccordion">
+          <div class="accordion-body">
+            <ul style="padding-left:25px;">
+              <li>UI Technologies Course Content</li>
+              <li>Introduction of UI Technologies</li>
+              <li>UI Developer Roles and Responsibilities</li>
+              <li>Technologies Around</li>
+              <li>HTML Basics & CSS</li>
+              <li>Document Object Model (DOM)</li>
+              <li>Structure of HTML Page: mandatory tags (html, head, body)</li>
+              <li>What is CSS? Different ways of applying CSS & priority chain</li>
+              <li>Heading tags (h1…h6), tags and attributes (class, id, style, etc.)</li>
+              <li>Inline vs Block-level elements, HTML tags</li>
+              <li>Including external page links using anchor tags & properties</li>
+              <li>Working with row & column data using table tags</li>
+              <li>Hiding/unhiding elements using display property</li>
+              <li>Image tag, p tag, ul & ol, li, nobr, hr, br etc.</li>
+              <li>Layouts, forms, buttons, input fields (textbox, radio, checkbox, dropdown, textarea etc.)</li>
+              <li><strong>HTML5 Topics:</strong></li>
+              <ul>
+                <li>Browser support for HTML5</li>
+                <li>Media tags (audio/video)</li>
+                <li>Graphics using canvas tag</li>
+                <li>Drag & Drop features</li>
+                <li>Geolocation (latitude & longitude)</li>
+                <li>Storing user preferences using LocalStorage</li>
+                <li>Form elements: GET & POST, Validating input values, Form action & type</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Session 2 -->
+      <div class="accordion-item" style="margin-bottom:1em; background:white; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+            style="background:none; color:#ff4b2b; font-weight:bold; border:none; border-left:5px solid #ff416c; padding-left:1rem;">
+            Session 2: CSS, Bootstrap & Responsive Design
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#uiCourseAccordion">
+          <div class="accordion-body">
+            <ul style="padding-left:25px;">
+              <li>CSS Properties: borders, fonts, pseudo-classes</li>
+              <li>Positioning elements (absolute, relative, fixed, static)</li>
+              <li>Box Model (margins, padding)</li>
+              <li>Floating elements (float left, right etc.)</li>
+              <li>Absolute vs Relative Paths</li>
+              <li>Including external resources (CSS, images etc.)</li>
+              <li><strong>CSS3:</strong> Difference between CSS2 & CSS3</li>
+              <li>Adding borders & backgrounds</li>
+              <li>Advanced text effects (shadow)</li>
+              <li>Adding transitions to elements</li>
+              <li>Responsive Design: working across multiple devices</li>
+              <li>Media Queries</li>
+              <li><strong>Bootstrap Framework:</strong></li>
+              <ul>
+                <li>What is Bootstrap? Advantages?</li>
+                <li>What is a responsive web page? Mobile-First strategy</li>
+                <li>Setting up environment</li>
+                <li>Using Bootstrap Grid: container, offset columns, class properties</li>
+                <li>Typography, Bootstrap tables, form layout, hide/show text</li>
+              </ul>
+              <li><strong>Bootstrap Components:</strong></li>
+              <ul>
+                <li>Glyphicons, Dropdown menus, Button groups & toolbars, Input groups</li>
+                <li>Navigation Pills & Tabs, Responsive Navbar, Forms in Navbar</li>
+                <li>Jumbotron / Page header, Progress bar, Media Objects, List group, Panel component</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript & ES6 -->
+      <div class="accordion-item" style="margin-bottom:1em; background:white; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+            style="background:none; color:#ff4b2b; font-weight:bold; border:none; border-left:5px solid #ff416c; padding-left:1rem;">
+            JavaScript & ES6
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#uiCourseAccordion">
+          <div class="accordion-body">
+            <ul style="padding-left:25px;">
+              <li>JavaScript Introduction</li>
+              <li>Data types & data structures in JS</li>
+              <li>Control structures: if, if-else, while, for, switch case</li>
+              <li>Dynamic creation & manipulation of DOM elements using JS</li>
+              <li>Adding dynamic event listeners (event capturing & bubbling)</li>
+              <li>Validations using key char codes</li>
+              <li>Data structures: Arrays & Objects, predefined methods</li>
+              <li>Strings & predefined methods</li>
+              <li><strong>Advanced/ES6 Features:</strong></li>
+              <ul>
+                <li>Adding methods for an object</li>
+                <li>Modules (export/import)</li>
+                <li>Understanding let and const</li>
+                <li>Arrow functions</li>
+                <li>Classes, Properties & Methods</li>
+                <li>Spread & Rest operators</li>
+                <li>Destructuring</li>
+                <li>Array functions (map, filter, reduce etc.)</li>
+                <li>Wrap Up: Next-Gen JavaScript Summary</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- React JS -->
+      <div class="accordion-item" style="margin-bottom:1em; background:white; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+            style="background:none; color:#ff4b2b; font-weight:bold; border:none; border-left:5px solid #ff416c; padding-left:1rem;">
+            React JS Course Content
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#uiCourseAccordion">
+          <div class="accordion-body">
+            <ul style="padding-left:25px;">
+              <li>Getting Started: React Introduction, First Code, React Alternatives, SPA vs MPA</li>
+              <li>Basic Features & Syntax: Workflow, CRA setup, Folder Structure, Props, State, Handling Events</li>
+              <li>Lists & Conditionals: Rendering conditionally, Lists & Keys, Updating State</li>
+              <li>Components & Internals: Lifecycle (class & functional), useEffect, Optimization, HOC, Context</li>
+              <li>HTTP/Ajax: Axios (GET/POST/DELETE), Interceptors, Global Config</li>
+              <li>Routing: react-router-dom, Links, Routes, Nested Routes, Redirects, Lazy Loading, Deployment</li>
+              <li>Forms & Validation: Dynamic Inputs, Validation feedback, Error messages</li>
+              <li>Redux: State, Flow (Store, Reducer, Actions), Middleware, Async Actions</li>
+              <li>Redux Advanced: Middleware, Devtools, Action Creators</li>
+              <li>Testing: Jest, Enzyme, Testing Components</li>
+              <li>Deploying: Firebase Build & Deployment</li>
+              <li>Real Time Project: CRUD Web Application</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer style="text-align:center; padding:1em; background:#ff416c; color:white; font-size:0.9em;">
+    <p>© 2025 STARTBYC | Designed by Pavan Kumar Allu</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
