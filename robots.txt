@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://startbyc.com/sitemap.xml
